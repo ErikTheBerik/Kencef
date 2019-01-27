@@ -1,14 +1,14 @@
 $("button").click(function()
 {
     $("#KencefLogo").toggleClass('small');
-
-    $("#LogoContainer").toggleClass('col-12');
-    $("#LogoContainer").toggleClass('col-3');
     
     $(".KencefButton").each(function()
     {
         $(this).toggleClass('small');
     });
+
+    $("#LogoContainer").toggleClass('col-12');
+    $("#LogoContainer").toggleClass('col-3');
 
     $(".BottomZone").each(function()
     {
