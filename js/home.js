@@ -6,14 +6,12 @@ buttonArray['info']['team'] = 'Info/team.html';
 buttonArray['info']['schule'] = 'Info/schule.html';
 
 buttonArray['spende'] = [];
-buttonArray['spende']['Mfangano'] = 'Spende/mfangano.html';
-buttonArray['spende']['Team'] = 'Spende/team.html';
-buttonArray['spende']['Schule'] = 'Spende/schule.html';
+buttonArray['spende']['paten'] = 'Spende/paten.html';
+buttonArray['spende']['projekte'] = 'Spende/projekte.html';
+buttonArray['spende']['verein'] = 'Spende/verein.html';
 
-buttonArray['kontakt'] = []
-buttonArray['kontakt']['Mfangano'] = 'Kontakt/mfangano.html';
-buttonArray['kontakt']['Team'] = 'Kontakt/team.html';
-buttonArray['kontakt']['Schule'] = 'Kontakt/schule.html';
+buttonArray['kontakt'] = [];
+buttonArray['kontakt']['kontakt'] = 'Kontakt/kontakt.html';
 
 
 $(".KencefButton").click(function()
