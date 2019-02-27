@@ -19,6 +19,12 @@ $(".KencefButton").click(function()
     $('#MainWindow').append('<div id="bottom_div"></div>');
     $("#KencefLogo").addClass('small');
 
+    $("#KencefLogo").on('click', function(e)
+    {
+        e.preventDefault();
+        location.reload();
+    });
+
     $(this).addClass('Special');
 
     $("#LogoContainer").removeClass('col-12');

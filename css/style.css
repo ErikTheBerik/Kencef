@@ -165,4 +165,7 @@ button.Special {
 #bottom_div {
     height: 82%;
     padding: 3%;
+
+    overflow-y: auto;
+    overflow-x: hidden;
 }
