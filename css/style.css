@@ -5,6 +5,7 @@ Color Code:
     Orange: #e28824;
     Gray: #878786;
     Off-White: #f7f8ea;
+    Light-Gray: #cacaca;
 */
 
 body {
@@ -132,16 +133,24 @@ button.Special {
 }
 
 #KencefLogo.small {
-    width: 100%;
-    height: 70%;
+    max-height: 70%;
+    max-width: 85%;
     margin-top: 10px;
-    /*margin-left: 1vmin;*/
-    position: absolute;
+
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 #KencefLogo {
-    width: calc(80vw - 6vmin);
-    height: calc(50vh - 3vmin);
+    width: auto;
+    height: auto;
+
+    max-width: calc(80vw - 6vmin);
+    max-height: calc(50vh - 3vmin);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -168,4 +177,22 @@ button.Special {
 
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+.TextDiv {
+    font-size: calc(8px + 0.5vmax);
+    text-align: justify;
+}
+
+.TextDiv > .col-6 {
+    padding: 0 40px;
+}
+
+.ContentImage {
+    border: 5px solid #e28824;
+    border-radius: 5vmin;
+}
+
+.HalfDiv {
+    min-height: 50%;
 }

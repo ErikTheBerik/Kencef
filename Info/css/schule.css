@@ -1,0 +1,60 @@
+/*
+Color Code:
+    Blue: #0f70b8
+    Alternative Blue: #6ea097;
+    Orange: #e28824;
+    Gray: #878786;
+    Off-White: #f7f8ea;
+    Light-Gray: #cacaca;
+*/
+
+#SpanSection {
+	height: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: calc(8px + 1.5vmax);
+}
+
+#SpanSection > span {
+	background-color: red;
+	height: 30%;
+	margin: 0.8% auto;
+
+	display: block;
+	overflow: hidden;
+
+	border-radius: 25px;
+	color: #f7f8ea;
+}
+
+#SpanSection > span:nth-child(1) {
+	margin-top: 4%;
+	width: 50%;
+	background-color: #e28824;
+}
+
+#SpanSection > span:nth-child(2) {
+	width: 75%;
+	background-color: #cacaca;
+}
+
+#SpanSection > span:nth-child(3) {
+	width: 100%;
+	background-color: #6ea097;
+	margin-bottom: 4%;
+}
+
+#KencefKid {
+    width: 10vmin;
+    position: absolute;
+    /* Button is 70% wide. 15% width remains in each side*/
+    left: 77%;
+    /* 40% is position of sepcial button, minus a percentage of the pictures height. Height = width * 1.0812 */
+    top: calc(21% - ((10vmin * 1.0812) / 1.1));
+    -moz-transform: scaleX(-1) rotate(-12deg);
+        -o-transform: scaleX(-1) rotate(-12deg);
+        -webkit-transform: scaleX(-1) rotate(-12deg);
+        transform: scaleX(-1) rotate(-12deg);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}

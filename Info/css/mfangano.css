@@ -1,17 +1,3 @@
-#MfanganoDiv {
-	font-size: calc(8px + 0.5vmax);
-	text-align: justify;
-}
-
-#MfanganoDiv > .col-6 {
-	padding: 0 40px;
-}
-
-.ContentImage {
-	border: 5px solid #e28824;
-	border-radius: 5vmin;
-}
-
 #pic1 {
 	float: right;
 	width: 65%;
