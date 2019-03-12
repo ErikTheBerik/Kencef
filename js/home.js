@@ -1,11 +1,17 @@
-var promise = screen.orientation.lock('landscape');
-if (promise !== undefined) {
-     promise.then(_ => {
-     // Autoplay started!
- }).catch(error => {
-    // Autoplay was prevented.
-    // Show a "Play" button so that user can start playback.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
   });
+}
+else
+{
+    alert('No service worker');
 }
 
 var buttonArray = [];
@@ -21,7 +27,9 @@ buttonArray['spende']['projekte'] = 'Spende/projekte.html';
 buttonArray['spende']['verein'] = 'Spende/verein.html';
 
 buttonArray['kontakt'] = [];
-buttonArray['kontakt']['kontakt'] = 'Kontakt/kontakt.html';
+buttonArray['kontakt']['E mail'] = 'Kontakt/email.html';
+buttonArray['kontakt']['social'] = 'Kontakt/social.html';
+buttonArray['kontakt']['impressum'] = 'Kontakt/impressum.html';
 
 
 $(".KencefButton").click(function()

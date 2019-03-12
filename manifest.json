@@ -1,8 +1,23 @@
 {
 	"short_name": "Kencef",
   	"name": "Kencef Kenyan Child Education",
+  	
+  	"icons":
+  	[
+	  {
+	    "src": "/Assets/Kencef_Logo.png",
+	    "type": "image/png",
+	    "sizes": "192x192"
+	  },
+	  {
+	    "src": "/Assets/Dunkel.png",
+	    "type": "image/png",
+	    "sizes": "512x512"
+	  }
+	],
+  	"background_color": "#e28824",
 	"start_url": "http://192.168.0.46/kencef/home.html",
 	"theme_color": "#6ea097",
-	"display": "fullscreen",
+	"display": "standalone",
   	"orientation": "landscape"
 }
