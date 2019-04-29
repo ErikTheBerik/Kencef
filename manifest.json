@@ -1,4 +1,6 @@
 {
+	"manifest_version": 2,
+  	"version": "1",
 	"short_name": "Kencef",
   	"name": "Kencef Kenyan Child Education",
   	
@@ -16,7 +18,8 @@
 	  }
 	],
   	"background_color": "#e28824",
-	"start_url": "http://192.168.0.46/kencef/home.html",
+	"start_url": "/index.php",
+	"scope": "/index.php",
 	"theme_color": "#6ea097",
 	"display": "standalone",
   	"orientation": "landscape"
