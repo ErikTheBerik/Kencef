@@ -32,21 +32,6 @@ h2 {
     overflow: hidden;
 }
 
-/*#MainButtons {
-    width: 100%;
-    height: 100%;
-}*/
-
-.row {
-    height: 100%;
-}
-
-.BottomZone {
-    height: calc(50vh - 3vmin);
-    display: flex;
-    justify-content: center;
-}
-
 .KencefButton {
     color: #f7f8ea;
     border: 0px;
@@ -64,85 +49,21 @@ h2 {
     text-transform: uppercase;
 }
 
+/*#MainButtons {
+    width: 100%;
+    height: 100%;
+}*/
+
+.row {
+    height: 100%;
+}
+
 .ButtonRow {
     height: 50%;
 }
 
-.KencefButton.Special.Intro {
-    font-size: 3.5vw;
-    width: 70%;
-    height: 32%;
-    top: 40%;
-}
-
 button.Special {
     background-color: #e28824;
-}
-
-.buttonCol {
-    /*text-align: center;*/
-}
-
-.KencefButton.Intro {
-    width: 60%;
-    height: 28%;
-    top: 10%;
-    font-size: 3.0vw;
-}
-
-.KencefButton.small {
-    width: 70%;
-    height: calc(6.8vmin - 0.375vmin);
-    font-size: 1.5vw;
-    margin-top: 2vmin;
-    /*margin-left: 1vmin;*/
-    top: 0;
-
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    position: relative;
-}
-
-.KencefSubButton {
-    color: #f7f8ea;
-    border: 0px;
-    background-color: #6ea097;
-    
-    position: relative;
-
-    border-radius: 80px;
-    letter-spacing: 0.1em;
-
-    font-family: sans-serif;
-    font-weight: 400;
-    text-align: center;
-
-    width: 50%;
-    height: calc(5.8vmin - 0.375vmin);
-    font-size: 1.5vw;
-    margin-top: 2vmin;
-    /*margin-left: 1vmin;*/
-    top: 0;
-
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-
-    text-transform: uppercase;
-}
-
-#KencefLogo.small {
-    max-height: 70%;
-    max-width: 85%;
-    margin-top: 10px;
-
-    position:absolute;
-    top:0;
-    bottom:0;
-    margin:auto;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
 }
 
 #KencefLogo {
@@ -155,28 +76,6 @@ button.Special {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1vmin;
-}
-
-#KencefKid {
-    width: 10vmin;
-    position: absolute;
-    /* Button is 70% wide. 15% width remains in each side*/
-    left: 15%;
-    /* 40% is position of sepcial button, minus a percentage of the pictures height. Height = width * 1.0812 */
-    top: calc(40% - ((10vmin * 1.0812) / 1.1));
-    transform: rotate(-15deg);
-}
-
-#top_div {
-    height: 18%;
-}
-
-#bottom_div {
-    height: 82%;
-    padding: 3%;
-
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 
 .TextDiv {
@@ -195,4 +94,223 @@ button.Special {
 
 .HalfDiv {
     min-height: 50%;
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+   /* Portrait styles here */
+    .BottomZone {
+        height: calc(30vh - 3vmin);
+        display: flex;
+        justify-content: center;
+    }
+
+    .KencefButton.Intro {
+        width: 60%;
+        height: 35%;
+        top: 20%;
+        font-size: 4.0vw;
+    }
+
+    .KencefButton.Special.Intro {
+        font-size: 4.5vw;
+        width: 70%;
+        height: 42%;
+    }
+
+    #KencefKid {
+        width: 12vmin;
+        position: absolute;
+        /* Button is 70% wide. 15% width remains in each side*/
+        left: 15%;
+        /* 40% is position of sepcial button, minus a percentage of the pictures height. Height = width * 1.0812 */
+        top: calc(20% - ((12vmin * 1.0812) / 1.1));
+        transform: rotate(-15deg);
+    }
+
+    #top_div {
+        height: 10%;
+    }
+
+    .buttonCol {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .buttonCol:first-of-type {
+        padding-left: 15px;
+    }
+
+    .buttonCol:last-of-type {
+        padding-right: 15px;
+    }
+
+    .buttonCol {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #bottom_div {
+        height: 90%;
+        padding: 3%;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .KencefButton.small {
+        width: 90%;
+        height: calc(6.8vmin - 0.375vmin);
+        font-size: 1.5vw;
+        margin-top: 2vmin;
+        /*margin-left: 1vmin;*/
+        top: 0;
+
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        position: relative;
+    }
+
+    .KencefSubButton {
+        color: #f7f8ea;
+        border: 0px;
+        background-color: #6ea097;
+        
+        position: relative;
+
+        border-radius: 80px;
+        letter-spacing: 0.1em;
+
+        font-family: sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+        width: 70%;
+        height: calc(5.8vmin - 0.375vmin);
+        font-size: 1.5vw;
+        margin-top: 2vmin;
+        /*margin-left: 1vmin;*/
+        top: 0;
+
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+
+        text-transform: uppercase;
+    }
+
+    #KencefLogo.small {
+        max-height: 70%;
+        max-width: 85%;
+        margin-top: 10px;
+
+        position:absolute;
+        top:0;
+        bottom:0;
+        margin:auto;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+   /* Landscape styles here */
+
+    .BottomZone {
+        height: calc(50vh - 3vmin);
+        display: flex;
+        justify-content: center;
+    }
+
+    .KencefButton.Intro {
+        width: 60%;
+        height: 28%;
+        top: 10%;
+        font-size: 3.0vw;
+    }
+
+    .KencefButton.Special.Intro {
+        font-size: 3.5vw;
+        width: 70%;
+        height: 32%;
+        top: 40%;
+    }
+
+    #KencefKid {
+        width: 10vmin;
+        position: absolute;
+        /* Button is 70% wide. 15% width remains in each side*/
+        left: 15%;
+        /* 40% is position of sepcial button, minus a percentage of the pictures height. Height = width * 1.0812 */
+        top: calc(40% - ((10vmin * 1.0812) / 1.1));
+        transform: rotate(-15deg);
+    }
+
+    #top_div {
+        height: 18%;
+    }
+
+    #bottom_div {
+        height: 82%;
+        padding: 3%;
+
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .KencefButton.small {
+        width: 70%;
+        height: calc(6.8vmin - 0.375vmin);
+        font-size: 1.5vw;
+        margin-top: 2vmin;
+        /*margin-left: 1vmin;*/
+        top: 0;
+
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        position: relative;
+    }
+
+    .KencefSubButton {
+        color: #f7f8ea;
+        border: 0px;
+        background-color: #6ea097;
+        
+        position: relative;
+
+        border-radius: 80px;
+        letter-spacing: 0.1em;
+
+        font-family: sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+        width: 50%;
+        height: calc(5.8vmin - 0.375vmin);
+        font-size: 1.5vw;
+        margin-top: 2vmin;
+        /*margin-left: 1vmin;*/
+        top: 0;
+
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+
+        text-transform: uppercase;
+    }
+
+    #KencefLogo.small {
+        max-height: 70%;
+        max-width: 85%;
+        margin-top: 10px;
+
+        position:absolute;
+        top:0;
+        bottom:0;
+        margin:auto;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
 }
