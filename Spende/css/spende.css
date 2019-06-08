@@ -1,0 +1,65 @@
+#SpanSection {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: calc(8px + 1.5vmax);
+}
+
+#SpanSection > span {
+	text-align: center;
+	background-color: #e28824;
+	height: 20%;
+	width: 85%;
+	margin: 25% auto 0.8% auto;
+
+	display: block;
+	overflow: hidden;
+
+	border-radius: 100px;
+	color: #f7f8ea;
+	font-weight: 400;
+	position: relative;
+}
+
+#TopRight > span {
+	text-align: center;
+	background-color: #6ea097;
+	height: 100%;
+	width: 100%;
+	margin: 25% auto 0.8% auto;
+
+	display: block;
+	overflow: hidden;
+
+	border-radius: 100px;
+	color: #f7f8ea;
+	font-weight: 400;
+	position: relative;
+}
+
+#SpanSection > span > p,
+#TopRight > span > p {
+	margin-top:7%;
+	font-size: calc(20px + 1.5vmax);
+}
+
+#KencefKid {
+    width: 10vmin;
+    position: absolute;
+    /* Button is 70% wide. 15% width remains in each side*/
+    left: 7.5%;
+    /* 40% is position of sepcial button, minus a percentage of the pictures height. Height = width * 1.0812 */
+    top: calc(20% - ((10vmin * 1.0812) / 1.1));
+    transform: rotate(-15deg);
+}
+
+#TopRight {
+	height: 20%;
+	width: 85%;
+}
+
+#BottomRight {
+	padding-top: 15%;
+	height: 80%;
+	width: 85%;
+}

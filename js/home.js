@@ -22,6 +22,7 @@ buttonArray['info']['team'] = 'Info/team.html';
 buttonArray['info']['schule'] = 'Info/schule.html';
 
 buttonArray['spende'] = [];
+buttonArray['spende']['main'] = 'Spende/spende.html';
 buttonArray['spende']['paten'] = 'Spende/paten.html';
 buttonArray['spende']['projekte'] = 'Spende/projekte.html';
 buttonArray['spende']['verein'] = 'Spende/verein.html';
@@ -87,8 +88,14 @@ $(".KencefButton").click(function()
                 var index = 0;
                 for (var k in subArray)
                 {
+                    if (k === 'main')
+                    {
+                        $('#bottom_div').load(subArray['main']);
+                        continue;
+                    }
+
                     var button = CreateSubButton(k, subArray[k]);
-                    if (index == 0)
+                    if (index == 0 && subArray['main'] === undefined)
                     {
                         button.click();
                     }
