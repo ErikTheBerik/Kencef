@@ -24,14 +24,14 @@
         <div class="col-12" id="LogoContainer">
           <img src="Assets/Kencef_Logo.png" alt="Kencef Logo" id="KencefLogo">
         </div>
-        <div class="col-4 BottomZone">
+        <div class="col-md-4 col-sm-12 BottomZone">
           <button class="KencefButton Intro" name="info">INFO</button>
         </div>
-        <div class="col-4 BottomZone">
+        <div class="col-md-4 col-sm-12 BottomZone">
           <img src="Assets/Kencef_Kid.svg" alt="Kencef Kid Logo" id="KencefKid">
           <button class="KencefButton Intro Special" name="spende">SPENDE</button>
         </div>
-        <div class="col-4 BottomZone">
+        <div class="col-md-4 col-sm-12 BottomZone">
           <button class="KencefButton Intro" name="kontakt">KONTAKT</button>
         </div>
       </div>
