@@ -218,6 +218,8 @@ Schuljahr finanziert werden.
     $kids = array_merge($kids, $kids);
     $kids = array_merge($kids, $kids);
 
+    shuffle($kids);
+
     $bigChange = 6;
     $bigName = "BigOne";
     foreach ($kids as $index => $kid)
