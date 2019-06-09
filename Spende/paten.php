@@ -19,7 +19,7 @@
         	"Only child",
         	"Mutter wurde unfruchtbar nach erster Geburt"
         ],
-        "Image" => "Alexander_Robert.JPG"
+        "Image" => "Alexander_Robert.jpg"
     ];
 
     $kids[] = 
@@ -37,7 +37,7 @@
         	"No father (left the island)",
         	"Live with their grandmother (support her), during raining season she is growing Erbsen and collecting"
         ],
-        "Image" => "Elvis_Luise.JPG"
+        "Image" => "Elvis_Luise.jpg"
     ];
 
     $kids[] = 
@@ -56,7 +56,7 @@
         	"Father was a small-scale farmer but he can’t work that hard anymore",
         	"5 children"
         ],
-        "Image" => "Gay_Brenda.JPG"
+        "Image" => "Gay_Brenda.jpg"
     ];
 
     $kids[] = 
@@ -75,7 +75,7 @@
         	"Mother is caring but can’t be employed",
         	"7 children"
         ],
-        "Image" => "Liunicole_Omondi.JPG"
+        "Image" => "Liunicole_Omondi.jpg"
     ];
 
     $kids[] = 
@@ -94,7 +94,7 @@
         	"Burning charcoal at the hill to support the family (but it’s actually illegal and not healthy)",
         	"3 children"
         ],
-        "Image" => "John_Lewis.JPG"
+        "Image" => "John_Lewis.jpg"
     ];
 
     $kids[] = 
@@ -109,7 +109,7 @@
         [
         	"Brother of Liunicole"
         ],
-        "Image" => "Richard_Mofesto.JPG"
+        "Image" => "Richard_Mofesto.jpg"
     ];
 
     $kids[] = 
@@ -128,7 +128,7 @@
         	"Father left the island (5 years ago)",
         	"Very clever and obedient in school"
         ],
-        "Image" => "Jimy_Vera.JPG"
+        "Image" => "Jimy_Vera.jpg"
     ];
 
     $kids[] = 
@@ -149,7 +149,7 @@
         	"Older siblings dropped at early grades of primary school (keener hat einen Schulabschluss)",
         	"Very poor family, bad house"
         ],
-        "Image" => "Clinton_Ogweno.JPG"
+        "Image" => "Clinton_Ogweno.jpg"
     ];
 
     $kids[] = 
@@ -165,7 +165,7 @@
         	"LRS (slow learner)", 
         	"Brother of Clinton Ogweno (Der darueber)"
         ],
-        "Image" => "Nickolas_Odhiambo.JPG"
+        "Image" => "Nickolas_Odhiambo.jpg"
     ];
 
     $kids[] = 
@@ -216,7 +216,7 @@ Schuljahr finanziert werden.
 
     foreach ($kids as $index => $kid)
     {
-    	$img = $kid['Image'] == "" ? "Kid_Template.PNG" : $kid['Image'];
+    	$img = $kid['Image'] == "" ? "Kid_Template.png" : $kid['Image'];
     	?>
     	<div class="col-md-2 col-sm-6 ">
     		<img src="./Assets/Kids/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;">
