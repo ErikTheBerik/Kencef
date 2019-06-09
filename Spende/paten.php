@@ -205,6 +205,7 @@
     ];
 
  ?>
+ <link rel="stylesheet" href="./Spende/css/paten.css?date=090619">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
  	Für eines dieser Kinder kann eine Patenschaft übernommen werden. Mithilfe von 60€ im Jahr kann ein komplettes
 Schuljahr finanziert werden.
@@ -213,17 +214,32 @@ Schuljahr finanziert werden.
 		<div class="row">
 
 <?php
+    $kids = array_merge($kids, $kids);
+    $kids = array_merge($kids, $kids);
+    $kids = array_merge($kids, $kids);
 
+    $bigChange = 6;
+    $bigName = "BigOne";
     foreach ($kids as $index => $kid)
     {
+        $extraClass = "";
+        
+        $extraClass = ($index - 6) % 11 == 0 ? $extraClass . " LeftMarginBig" : $extraClass; 
+        $extraClass = ($index - 10) % 11 == 0 ? $extraClass . " RightMarginBig" : $extraClass;
+
+        $extraClass = ($index - 3) % 5 == 0 ? $extraClass . " LeftMarginSmall" : $extraClass; 
+        $extraClass = ($index - 4) % 5 == 0 ? $extraClass . " RightMarginSmall" : $extraClass;
+
+       /* $styleLeft = ($index + 5) % 11 == 0 ? " border: 2px solid red;" : ""; 
+        $styleRight = ($index + 1) % 11 == 0 ? " border: 2px solid green;" : ""; */
+
     	$img = $kid['Image'] == "" ? "Kid_Template.png" : $kid['Image'];
     	?>
-    	<div class="col-md-2 col-4">
-    		<img src="./Assets/Kids/Small/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;">
+    	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>">
+    		<img src="./Assets/Kids/Small/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;" >
     	</div>
     	<?php
     }
-
 ?>
 		</div>
 	</div>

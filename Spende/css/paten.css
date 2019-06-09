@@ -1,0 +1,35 @@
+/* xs */
+div.LeftMarginSmall {
+	margin-left: 16.6%;
+}
+
+div.RightMarginSmall {
+	margin-right: 16.6%;
+}
+
+/* sm */
+@media (min-width:768px) {
+
+  
+
+}
+
+/* md */
+@media (min-width:992px) {
+
+	div.LeftMarginBig {
+		margin-left: 8.3%;
+	}
+
+	div.RightMarginBig {
+		margin-right: 8.3%;
+	}
+
+}
+
+/* lg */
+@media (min-width:1200px) {
+
+  
+
+}
