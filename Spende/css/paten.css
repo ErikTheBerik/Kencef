@@ -7,6 +7,35 @@ div.RightMarginSmall {
 	margin-right: 16.6%;
 }
 
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #6ea097;
+	color: #f7f8ea;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: -1;
+	top: 50%;
+	padding-top: 50%;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown {
+	z-index: 0;
+}
+
+.dropdown:hover {
+	z-index: 2;
+}
+
 /* sm */
 @media (min-width:768px) {
 
@@ -24,7 +53,7 @@ div.RightMarginSmall {
 	div.RightMarginSmall {
 		margin-right: 0;
 	}
-	
+
 	div.LeftMarginBig {
 		margin-left: 8.3%;
 	}

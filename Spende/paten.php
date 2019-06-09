@@ -205,7 +205,7 @@
     ];
 
  ?>
- <link rel="stylesheet" href="./Spende/css/paten.css?date=090619_2">
+ <link rel="stylesheet" href="./Spende/css/paten.css?date=090619_4">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
  	Für eines dieser Kinder kann eine Patenschaft übernommen werden. Mithilfe von 60€ im Jahr kann ein komplettes
 Schuljahr finanziert werden.
@@ -237,7 +237,32 @@ Schuljahr finanziert werden.
     	?>
     	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
             <div class="imageWrapper" style="padding: 10%;">
-                <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                <div class="dropdown" style="border-radius: 50%;">
+                    <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                    <div class="dropdown-content">
+                        <?php echo strtoupper($kid['Name']); ?>
+                        <br>
+                        <?php echo $kid['Age'] . " years old" ?>
+                        <br>
+                        <br>
+                        <?php echo $kid['School']; ?>
+                        <br>
+                        <?php echo $kid['Class']; ?>
+                        <br>
+                        <?php echo $kid['Subject']; ?>
+                        <br>
+                        <?php echo $kid['Career']; ?>
+                        <br>
+                        <?php
+                            foreach ($kid['Info'] as $infoIndex => $info)
+                            {
+                                echo "* " . $info;
+                                ?> <br> <?php
+                            }
+                        ?>
+
+                    </div>
+                </div>
             </div>
     	</div>
     	<?php
