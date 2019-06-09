@@ -18,7 +18,8 @@
         	"Father is there but left school at grade 2, not working",
         	"Only child",
         	"Mutter wurde unfruchtbar nach erster Geburt"
-        ]
+        ],
+        "Image" => "Alexander_Robert.JPG"
     ];
 
     $kids[] = 
@@ -35,7 +36,8 @@
         	"5 children",
         	"No father (left the island)",
         	"Live with their grandmother (support her), during raining season she is growing Erbsen and collecting"
-        ]
+        ],
+        "Image" => "Elvis_Luise.JPG"
     ];
 
     $kids[] = 
@@ -53,7 +55,8 @@
         	"She lives with her step mother (HIV)",
         	"Father was a small-scale farmer but he can’t work that hard anymore",
         	"5 children"
-        ]
+        ],
+        "Image" => "Gay_Brenda.JPG"
     ];
 
     $kids[] = 
@@ -71,7 +74,8 @@
         	"Children have to pull the net (fishing) → to support the family",
         	"Mother is caring but can’t be employed",
         	"7 children"
-        ]
+        ],
+        "Image" => "Liunicole_Omondi.JPG"
     ];
 
     $kids[] = 
@@ -89,7 +93,8 @@
         	"They are very old",
         	"Burning charcoal at the hill to support the family (but it’s actually illegal and not healthy)",
         	"3 children"
-        ]
+        ],
+        "Image" => "John_Lewis.JPG"
     ];
 
     $kids[] = 
@@ -103,7 +108,8 @@
         "Info" => 
         [
         	"Brother of Liunicole"
-        ]
+        ],
+        "Image" => "Richard_Mofesto.JPG"
     ];
 
     $kids[] = 
@@ -121,7 +127,8 @@
         	"Mother supports the whole family",
         	"Father left the island (5 years ago)",
         	"Very clever and obedient in school"
-        ]
+        ],
+        "Image" => "Jimy_Vera.JPG"
     ];
 
     $kids[] = 
@@ -141,7 +148,8 @@
         	"None of the kids went to secondary school",
         	"Older siblings dropped at early grades of primary school (keener hat einen Schulabschluss)",
         	"Very poor family, bad house"
-        ]
+        ],
+        "Image" => "Clinton_Ogweno.JPG"
     ];
 
     $kids[] = 
@@ -156,7 +164,8 @@
         [
         	"LRS (slow learner)", 
         	"Brother of Clinton Ogweno (Der darueber)"
-        ]
+        ],
+        "Image" => "Nickolas_Odhiambo.JPG"
     ];
 
     $kids[] = 
@@ -173,7 +182,8 @@
         	"Mother has HIV",
         	"Father passed away",
         	"4 children"
-        ]
+        ],
+        "Image" => ""
     ];
 
     $kids[] = 
@@ -190,15 +200,30 @@
         	"Grandmother has no job (helps other families to earn some little money)",
         	"Parents passed away",
         	"Only 1 child"
-        ]
+        ],
+        "Image" => ""
     ];
+
+ ?>
+ <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
+ 	Für eines dieser Kinder kann eine Patenschaft übernommen werden. Mithilfe von 60€ im Jahr kann ein komplettes
+Schuljahr finanziert werden.
+ </div>
+	<div class="container-fluid">
+		<div class="row">
+
+<?php
 
     foreach ($kids as $index => $kid)
     {
-    	if ($index != 0)
-    		echo ", ";
-
-    	echo $kid['Name'];
+    	$img = $kid['Image'] == "" ? "Kid_Template.PNG" : $kid['Image'];
+    	?>
+    	<div class="col-md-2 col-sm-6 ">
+    		<img src="/Kencef/Assets/Kids/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;">
+    	</div>
+    	<?php
     }
 
 ?>
+		</div>
+	</div>
