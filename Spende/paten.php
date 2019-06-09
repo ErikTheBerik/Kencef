@@ -205,7 +205,7 @@
     ];
 
  ?>
- <link rel="stylesheet" href="./Spende/css/paten.css?date=090619">
+ <link rel="stylesheet" href="./Spende/css/paten.css?date=090619_2">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
  	Für eines dieser Kinder kann eine Patenschaft übernommen werden. Mithilfe von 60€ im Jahr kann ein komplettes
 Schuljahr finanziert werden.
@@ -237,7 +237,7 @@ Schuljahr finanziert werden.
     	?>
     	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
             <div class="imageWrapper" style="padding: 10%;">
-                <img src="./Assets/Kids/Small/<?php echo $img; ?>" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
             </div>
     	</div>
     	<?php
