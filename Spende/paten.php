@@ -240,7 +240,7 @@ Schuljahr finanziert werden.
                     <div class="dropdown-content">
                         <?php echo strtoupper($kid['Name']); ?>
                         <br>
-                        <?php echo $kid['Age'] . " years old" ?>
+                        <?php echo $kid['Age'] . " Jahre" ?>
                         <br>
                         <br>
                         <?php echo $kid['School']; ?>
