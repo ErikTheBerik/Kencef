@@ -67,9 +67,6 @@ $(".KencefButton").click(function()
 
         $(this).off('click').on('click', function()
         {
-            if ($(this).hasClass('Special'))
-                return;
-
             $(".KencefButton").each(function()
             {
                 $(this).removeClass('Special');
