@@ -12,7 +12,7 @@
     <link rel="manifest" href="manifest.json">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css?date=090619">
+    <link rel="stylesheet" href="css/style.css?date=090619_2">
 
     <title>Kencef - Home</title>
   </head>
