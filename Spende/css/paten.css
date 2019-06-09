@@ -17,6 +17,14 @@ div.RightMarginSmall {
 /* md */
 @media (min-width:992px) {
 
+	div.LeftMarginSmall {
+	margin-left: 0;
+	}
+
+	div.RightMarginSmall {
+		margin-right: 0;
+	}
+	
 	div.LeftMarginBig {
 		margin-left: 8.3%;
 	}
@@ -24,6 +32,7 @@ div.RightMarginSmall {
 	div.RightMarginBig {
 		margin-right: 8.3%;
 	}
+
 
 }
 

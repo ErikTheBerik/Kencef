@@ -235,8 +235,10 @@ Schuljahr finanziert werden.
 
     	$img = $kid['Image'] == "" ? "Kid_Template.png" : $kid['Image'];
     	?>
-    	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>">
-    		<img src="./Assets/Kids/Small/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;" >
+    	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
+            <div class="imageWrapper" style="padding: 10%;">
+                <img src="./Assets/Kids/Small/<?php echo $img; ?>" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+            </div>
     	</div>
     	<?php
     }
