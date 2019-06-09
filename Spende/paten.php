@@ -219,7 +219,7 @@ Schuljahr finanziert werden.
     	$img = $kid['Image'] == "" ? "Kid_Template.PNG" : $kid['Image'];
     	?>
     	<div class="col-md-2 col-sm-6 ">
-    		<img src="/Kencef/Assets/Kids/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;">
+    		<img src="./Assets/Kids/<?php echo $img; ?>" style="width: 100%; image-orientation: from-image;">
     	</div>
     	<?php
     }
