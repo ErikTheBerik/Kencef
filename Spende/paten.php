@@ -249,7 +249,18 @@ Schuljahr finanziert werden.
                         <br>
                         <?php echo $kid['School']; ?>
                         <br>
-                        <?php echo $kid['Class']; ?>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    	<?php
+    }
+?>
+		</div>
+	</div>
+
+<?php 
+                    /*<?php echo $kid['Class']; ?>
                         <br>
                         <?php echo $kid['Subject']; ?>
                         <br>
@@ -261,14 +272,6 @@ Schuljahr finanziert werden.
                                 echo "* " . $info;
                                 ?> <br> <?php
                             }
-                        ?>
+                        ?>*/ 
 
-                    </div>
-                </div>
-            </div>
-    	</div>
-    	<?php
-    }
 ?>
-		</div>
-	</div>
