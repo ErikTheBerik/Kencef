@@ -18,12 +18,12 @@ var buttonArray = [];
 
 buttonArray['info'] = [];
 buttonArray['info']['mfangano'] = 'Info/mfangano.html';
-buttonArray['info']['team'] = 'Info/team.html';
+buttonArray['info']['team'] = 'Info/team.php';
 buttonArray['info']['schule'] = 'Info/schule.html';
 
 buttonArray['spende'] = [];
 buttonArray['spende']['main'] = 'Spende/spende.html';
-buttonArray['spende']['paten'] = 'Spende/paten.html';
+buttonArray['spende']['paten'] = 'Spende/paten.php';
 buttonArray['spende']['projekte'] = 'Spende/projekte.html';
 buttonArray['spende']['verein'] = 'Spende/verein.html';
 
