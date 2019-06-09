@@ -214,10 +214,6 @@ Schuljahr finanziert werden.
 		<div class="row">
 
 <?php
-    $kids = array_merge($kids, $kids);
-    $kids = array_merge($kids, $kids);
-    $kids = array_merge($kids, $kids);
-
     shuffle($kids);
 
     $bigChange = 6;
