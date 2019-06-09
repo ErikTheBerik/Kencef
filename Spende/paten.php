@@ -210,7 +210,7 @@
  	Für eines dieser Kinder kann eine Patenschaft übernommen werden. Mithilfe von 60€ im Jahr kann ein komplettes
 Schuljahr finanziert werden.
  </div>
-	<div class="container-fluid">
+	<div class="container-fluid" style="margin-bottom: 5%;">
 		<div class="row">
 
 <?php
@@ -240,7 +240,7 @@ Schuljahr finanziert werden.
     	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
             <div class="imageWrapper" style="padding: 10%;">
                 <div class="dropdown" style="border-radius: 50%;">
-                    <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                    <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619_2" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
                     <div class="dropdown-content">
                         <?php echo strtoupper($kid['Name']); ?>
                         <br>
@@ -255,6 +255,7 @@ Schuljahr finanziert werden.
     	</div>
     	<?php
     }
+
 ?>
 		</div>
 	</div>
