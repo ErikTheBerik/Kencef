@@ -205,7 +205,7 @@
     ];
 
  ?>
- <link rel="stylesheet" href="./Spende/css/paten.css?date=090619_4">
+ <link rel="stylesheet" href="./Spende/css/paten.css?date=090619_5">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
  	Für eines dieser Kinder kann eine Patenschaft übernommen werden. Mithilfe von 60€ im Jahr kann ein komplettes
 Schuljahr finanziert werden.
