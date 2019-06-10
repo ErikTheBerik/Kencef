@@ -9,7 +9,7 @@
         "School" => "Sena Primary School",
         "Class" => 1,
         "Subject" => "Christian Religious Education",
-        "Career" => "Teacher",
+        "Career" => "Lehrer",
         "Info" => 
         [
         	"Lives with his mother (not employed)", 
@@ -29,7 +29,7 @@
         "School" => "Misori Primary School",
         "Class" => 1,
         "Subject" => "Maths",
-        "Career" => "Er will einfach nur arbeiten",
+        "Career" => "Sänger",
         "Info" => 
         [
         	"Lives with his mother (smale-scale seller of small fish)", 
@@ -47,7 +47,7 @@
         "School" => "Sena Primary School",
         "Class" => 3,
         "Subject" => "Christian Religious Education",
-        "Career" => "Nurse",
+        "Career" => "Kranken- schwester",
         "Info" => 
         [
         	"Father and mother are both unable to work", 
@@ -66,7 +66,7 @@
         "School" => "Sena Primary School",
         "Class" => 4,
         "Subject" => "English",
-        "Career" => "Engineer",
+        "Career" => "Ingenieur",
         "Info" => 
         [
         	"lives with his mother (left school after class 7)", 
@@ -85,7 +85,7 @@
         "School" => "Sena Primary School",
         "Class" => 4,
         "Subject" => "Science",
-        "Career" => "Doctor",
+        "Career" => "Arzt",
         "Info" => 
         [
         	"Lives with his mother and father", 
@@ -104,7 +104,7 @@
         "School" => "Sena Primary School",
         "Class" => 2,
         "Subject" => "Maths",
-        "Career" => "Engineer",
+        "Career" => "Ingenieur",
         "Info" => 
         [
         	"Brother of Liunicole"
@@ -119,7 +119,7 @@
         "School" => "Sena Primary School",
         "Class" => 5,
         "Subject" => "Science",
-        "Career" => "Engineer",
+        "Career" => "Ingenieur",
         "Info" => 
         [
         	"Lives with the mother (collecting stones)", 
@@ -138,7 +138,7 @@
         "School" => "Sena Primary School",
         "Class" => 2,
         "Subject" => "Maths",
-        "Career" => "Engineer",
+        "Career" => "Ingenieur",
         "Info" => 
         [
         	"Father is very old and sick", 
@@ -159,7 +159,7 @@
         "School" => "Nursery School",
         "Class" => "Vorschulklasse",
         "Subject" => "Writing",
-        "Career" => "Author",
+        "Career" => "Schriftsteller",
         "Info" => 
         [
         	"LRS (slow learner)", 
@@ -175,7 +175,7 @@
         "School" => "Misori Primary School",
         "Class" => 6,
         "Subject" => "Science",
-        "Career" => "Engineer",
+        "Career" => "Ingenieurin",
         "Info" => 
         [
         	"Lives in Sena with her mother (smale-scale seller of small fish)", 
@@ -193,7 +193,7 @@
         "School" => "Mauta Primary",
         "Class" => "Vorschulklasse",
         "Subject" => "?",
-        "Career" => "?",
+        "Career" => "",
         "Info" => 
         [
         	"Lives with grandmother (has HIV)", 
@@ -202,6 +202,261 @@
         	"Only 1 child"
         ],
         "Image" => ""
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Billy",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Billy.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Brighton",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Brighton.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Brighton",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Brighton.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Bromic",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Bromic.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Chelsea",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Chelsea.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Churchill",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Churchill.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Daniel",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Daniel.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Denis",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Denis.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Echieng",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Echieng.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Keneth",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Keneth.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Leaky",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Leaky.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Mery",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Mery.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Nicolas",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Nicolas.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Odhiambo",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Odhiambo.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Okiny",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Okiny.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Salmon",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Salmon.jpg"
+    ];
+
+    $kids[] = 
+    [
+        "Name" => "Xynthia",
+        "Age" => "",
+        "School" => "",
+        "Class" => "",
+        "Subject" => "",
+        "Career" => "",
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Xynthia.jpg"
     ];
 
  ?>
@@ -243,7 +498,20 @@ Schuljahr finanziert werden.
                         <?php echo $kid['Age'] . " Jahre" ?>
                         <br>
                         <br>
-                        <?php echo $kid['School']; ?>
+                        <?php
+                        if (is_int($kid['Class']))
+                        {
+                            echo "besucht die " . $kid['Class'] .". Klasse";
+                        } 
+                        else 
+                        {
+                            echo "besucht die " . $kid['Class'];
+                        }
+                        ?>
+                        <?php if ($kid['Career'] != '') 
+                        {
+                            echo "und möchte gerne " . $kid['Career'] ." werden"; 
+                        }?>                      
                         <br>
                     </div>
                 </div>
