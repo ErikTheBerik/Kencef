@@ -71,7 +71,7 @@
  <link rel="stylesheet" href="./Info/css/team.css?date=100619_3">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
  	KENCEF e.V. steht für "Kenyan Rural Needy Child Educational Foundation" <br>
-    (dt. Bildungsförderung für hilfsbedürftige Kinder im ländlichen Kenia).)
+    (auf Deutsch: Bildungsförderung für hilfsbedürftige Kinder im ländlichen Kenia).)
  </div>
     <div class="container-fluid" style="margin-bottom: 5%;">
         <div class="row">
@@ -123,6 +123,6 @@
     Gegründet wurde der Verein 2017 von dem kenianischen Lehrer David Okeyo Wachara und der deutschen Studentin Linda Leibhold.
     David hatte bereits in seiner Jugend begonnen, sich für seine Gemeinde – vor allem die Witwen – einzusetzen und in diesem Rahmen
     u.a. eine öffentliche Bibliothek eingerichtet. Linda hat für drei Monate auf der Insel gelebt und gemeinsam mit David an der Realisierung
-    verschiedener Projekte gearbeitet. Mit der Idee für KENCEF im Gepäck reiste sie zurück nach Deutschland und wird sie seitdem
-    von ihren Vereinskollegen Anna-Lena Louis, Lukas Drechsler, Gerda Arlt, Cuong Vo Ta und Tanja Spindler unterstützt.
+    verschiedener Projekte gearbeitet. Mit der Idee für KENCEF im Gepäck reiste sie zurück nach Deutschland und wird seitdem
+    von ihren VereinskollegInnen Anna-Lena Louis, Lukas Drechsler, Gerda Arlt, Cuong Vo Ta und Tanja Spindler unterstützt.
  </div>
