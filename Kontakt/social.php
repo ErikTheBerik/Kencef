@@ -21,8 +21,8 @@
 		</div>
 	</div>
 	
-	<script src="/Kencef/Kontakt/js/instafeed.min.js"></script>
-	<script src="/Kencef/Kontakt/js/custom.js"></script>
+	<script src="./Kontakt/js/instafeed.min.js"></script>
+	<script src="./Kontakt/js/custom.js"></script>
 
 	<div class="col-12">
 		<p style="font-size: 175%; padding: 2.5% 0 0 3%;">
