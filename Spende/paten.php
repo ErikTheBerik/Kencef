@@ -491,7 +491,7 @@ Schuljahr finanziert werden.
     	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
             <div class="imageWrapper" style="padding: 10%;">
                 <div class="dropdown" style="border-radius: 50%;">
-                    <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619_2" class="" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                    <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619_2" class="img-fluid" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
                     <div class="dropdown-content">
                         <?php echo strtoupper($kid['Name']); ?>
                         <br>
