@@ -1,0 +1,28 @@
+/* Instafeed css*/
+.instaimg img {
+	margin-bottom: 15%;
+}
+
+.instaimg img:hover {
+	opacity: 0.7;
+}
+
+.instafeed_border {
+	padding: 5%;
+    border: 3px solid #e28824;
+    border-radius: 50px;
+}
+
+/*Icons ss*/
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}

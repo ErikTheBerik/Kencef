@@ -29,7 +29,7 @@ buttonArray['spende']['verein'] = 'Spende/verein.html';
 
 buttonArray['kontakt'] = [];
 buttonArray['kontakt']['E mail'] = 'Kontakt/email.html';
-buttonArray['kontakt']['social'] = 'Kontakt/social.html';
+buttonArray['kontakt']['social'] = 'Kontakt/social.php';
 buttonArray['kontakt']['impressum'] = 'Kontakt/impressum.html';
 
 
