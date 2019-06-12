@@ -13,6 +13,15 @@
 
     $team[] = 
     [
+        "Name" => "Erik Ahlund Helguera",
+        "Age" => 22,
+        "Job" => "Programmierer in Leipzig",
+        "Course" => "",
+        "Image" => "erik.jpg"
+    ];
+
+    $team[] = 
+    [
         "Name" => "Lukas Drechsler",
         "Age" => 23,
         "Job" => "Student in Leipzig",
