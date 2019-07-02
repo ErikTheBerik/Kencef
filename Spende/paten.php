@@ -207,14 +207,14 @@
     $kids[] = 
     [
         "Name" => "Billy",
-        "Age" => "",
+        "Age" => 7,
         "School" => "",
-        "Class" => "",
+        "Class" => 1,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Leichtathlet",
         "Info" => 
         [
-            "no informations yet"
+            "Der Vater des Jungen starb zuerst, später auch seine Mutter. Billy ist Waise und lebt nun bei seiner Großmutter."
         ],
         "Image" => "Billy.jpg"
     ];
@@ -222,29 +222,14 @@
     $kids[] = 
     [
         "Name" => "Brighton",
-        "Age" => "",
+        "Age" => 16,
         "School" => "",
-        "Class" => "",
+        "Class" => 9,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Fußballspieler",
         "Info" => 
         [
-            "no informations yet"
-        ],
-        "Image" => "Brighton.jpg"
-    ];
-
-    $kids[] = 
-    [
-        "Name" => "Brighton",
-        "Age" => "",
-        "School" => "",
-        "Class" => "",
-        "Subject" => "",
-        "Career" => "",
-        "Info" => 
-        [
-            "no informations yet"
+            "Vater ist Alkoholiker und die Familie ist sehr arm."
         ],
         "Image" => "Brighton.jpg"
     ];
@@ -252,14 +237,14 @@
     $kids[] = 
     [
         "Name" => "Bromic",
-        "Age" => "",
+        "Age" => 16,
         "School" => "",
-        "Class" => "",
+        "Class" => 10,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Arzt",
         "Info" => 
         [
-            "no informations yet"
+            "Er lebt bei seiner Großmutter, da beide Elternteile tot sind."
         ],
         "Image" => "Bromic.jpg"
     ];
@@ -267,11 +252,11 @@
     $kids[] = 
     [
         "Name" => "Chelsea",
-        "Age" => "",
+        "Age" => 15,
         "School" => "",
-        "Class" => "",
+        "Class" => 9,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Krankenschwester",
         "Info" => 
         [
             "no informations yet"
@@ -282,14 +267,14 @@
     $kids[] = 
     [
         "Name" => "Churchill",
-        "Age" => "",
+        "Age" => 6,
         "School" => "",
-        "Class" => "",
+        "Class" => 1,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Arzt",
         "Info" => 
         [
-            "no informations yet"
+            "Churchill lebt bei der gleichen Großmutter wie Billy. Er hatte andere Eltern, diese sind jedoch auch gestorben. "
         ],
         "Image" => "Churchill.jpg"
     ];
@@ -297,14 +282,14 @@
     $kids[] = 
     [
         "Name" => "Daniel",
-        "Age" => "",
+        "Age" => 14,
         "School" => "",
-        "Class" => "",
+        "Class" => 7,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Pilot",
         "Info" => 
         [
-            "no informations yet"
+            "Daniel hat keine Mutter mehr und lebt bei seiner Großmutter, da sein Vater krank ist."
         ],
         "Image" => "Daniel.jpg"
     ];
@@ -312,14 +297,14 @@
     $kids[] = 
     [
         "Name" => "Denis",
-        "Age" => "",
+        "Age" => 12,
         "School" => "",
-        "Class" => "",
+        "Class" => 6,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Ingenieur",
         "Info" => 
         [
-            "no informations yet"
+            "Hat 4 Geschwister. Mutter verkauft Gemüse."
         ],
         "Image" => "Denis.jpg"
     ];
@@ -327,14 +312,14 @@
     $kids[] = 
     [
         "Name" => "Echieng",
-        "Age" => "",
-        "School" => "",
-        "Class" => "",
+        "Age" => 10,
+        "School" => "Sena",
+        "Class" => 4,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Pilotin",
         "Info" => 
         [
-            "no informations yet"
+            "Echieng ist die große Schwester von Linet und wohnt auch mit bei ihrer Großmutter. "
         ],
         "Image" => "Echieng.jpg"
     ];
@@ -342,14 +327,14 @@
     $kids[] = 
     [
         "Name" => "Keneth",
-        "Age" => "",
+        "Age" => 12,
         "School" => "",
-        "Class" => "",
-        "Subject" => "",
-        "Career" => "",
+        "Class" => 6,
+        "Subject" => "Religion",
+        "Career" => "Priester",
         "Info" => 
         [
-            "no informations yet"
+            "Keneths Vater ist bereits tot. Seine Mutter ist krank und hat kein Haus, indem die beiden wohnen können. Mutter und Sohn kommen bei der 2. Frau von Keneths Vater unter. Nach der Schule möchte Keneth Priester werden. "
         ],
         "Image" => "Keneth.jpg"
     ];
@@ -357,14 +342,14 @@
     $kids[] = 
     [
         "Name" => "Leaky",
-        "Age" => "",
+        "Age" => 16,
         "School" => "",
-        "Class" => "",
+        "Class" => 10,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Arzt",
         "Info" => 
         [
-            "no informations yet"
+            "Der Junge wurde von seinen Eltern verlassen und wohnt bei seiner Großmutter."
         ],
         "Image" => "Leaky.jpg"
     ];
@@ -372,14 +357,14 @@
     $kids[] = 
     [
         "Name" => "Mery",
-        "Age" => "",
+        "Age" => 16,
         "School" => "",
-        "Class" => "",
+        "Class" => 10,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Ärztin",
         "Info" => 
         [
-            "no informations yet"
+            "Ist ein Vollwaisenkind. Stays with wellwisher…keine Ahnung"
         ],
         "Image" => "Mery.jpg"
     ];
@@ -387,14 +372,14 @@
     $kids[] = 
     [
         "Name" => "Nicolas",
-        "Age" => "",
+        "Age" => 15,
         "School" => "",
-        "Class" => "",
+        "Class" => 8,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Elektrotechniker",
         "Info" => 
         [
-            "no informations yet"
+            "Beide Eltern sind krank."
         ],
         "Image" => "Nicolas.jpg"
     ];
@@ -402,14 +387,14 @@
     $kids[] = 
     [
         "Name" => "Odhiambo",
-        "Age" => "",
+        "Age" => 15,
         "School" => "",
-        "Class" => "",
+        "Class" => 6,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Ingenieur",
         "Info" => 
         [
-            "no informations yet"
+            "Odhiambo ist der Bruder von Okiny. Die beiden hatten den gleichen Vater, jedoch eine andere Mutter. Die leibliche Mutter des Jungen hat die Insel verlassen. Nun lebt Odhiambo bei der gleichen Großmutter wie Okiny. Am meisten interessiert sich der Schüler für den Ingenieursberuf."
         ],
         "Image" => "Odhiambo.jpg"
     ];
@@ -417,14 +402,15 @@
     $kids[] = 
     [
         "Name" => "Okiny",
-        "Age" => "",
+        "Age" => 8,
         "School" => "",
-        "Class" => "",
+        "Class" => 3,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Lehrer",
         "Info" => 
         [
-            "no informations yet"
+            "Okiny ist Halbwaise und lebt gemeinsam mit seiner Mutter bei seiner Großmutter. 
+                Später möchte der Junge gerne Lehrer werden."
         ],
         "Image" => "Okiny.jpg"
     ];
@@ -432,11 +418,11 @@
     $kids[] = 
     [
         "Name" => "Salmon",
-        "Age" => "",
+        "Age" => 13,
         "School" => "",
-        "Class" => "",
+        "Class" => 6,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Fußballspieler",
         "Info" => 
         [
             "no informations yet"
@@ -447,11 +433,11 @@
     $kids[] = 
     [
         "Name" => "Xynthia",
-        "Age" => "",
+        "Age" => 18,
         "School" => "",
-        "Class" => "",
+        "Class" => 11,
         "Subject" => "",
-        "Career" => "",
+        "Career" => "Lehrerin",
         "Info" => 
         [
             "no informations yet"
