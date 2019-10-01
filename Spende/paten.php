@@ -445,6 +445,471 @@
         "Image" => "Xynthia.jpg"
     ];
 
+    $kids_mediated[] = 
+    [
+        "Name" => "Abongo",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Abongo.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Achieng",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Achieng.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Angeline",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Angeline.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Arnold",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Arnold.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Clinton",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Clinton.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Daniel",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Daniel.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Delix",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Delix.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Faith",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Faith.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Felix",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Felix.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "George",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "George.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Giftian",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Giftian.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Linet",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Linet.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Magret",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Magret.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Marcus",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Marcus.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Mary",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Mary.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Melvin",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Melvin.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Murine",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Murine.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Omodia",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Omodia.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Philip",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Philip.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Shaila",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Shaila.png"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Sheril",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Sheril.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Spency",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Spency.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Tracia",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Tracia.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Tyris",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Tyris.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Victor",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Victor.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Vince",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Vince.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Weakleaf",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Weakleaf.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Wendy",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Wendy.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Young",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Young_1.jpg"
+    ];
+
+     $kids_mediated[] = 
+    [
+        "Name" => "Young",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Young_2.jpg"
+    ];
+
+    $kids_mediated[] = 
+    [
+        "Name" => "Yovinta",
+        "Age" => null,
+        "School" => null,
+        "Class" => null,
+        "Subject" => null,
+        "Career" => null,
+        "Info" => 
+        [
+            "no informations yet"
+        ],
+        "Image" => "Yovinta.jpg"
+    ];                 
+
  ?>
  <link rel="stylesheet" href="./Spende/css/paten.css?date=090619_5">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
@@ -454,75 +919,127 @@ Schuljahr finanziert werden.
 	<div class="container-fluid" style="margin-bottom: 5%;">
 		<div class="row">
 
-<?php
-    shuffle($kids);
+            <?php
+                shuffle($kids);
 
-    $bigChange = 6;
-    $bigName = "BigOne";
-    foreach ($kids as $index => $kid)
-    {
-        $extraClass = "";
-        
-        $extraClass = ($index - 6) % 11 == 0 ? $extraClass . " LeftMarginBig" : $extraClass; 
-        $extraClass = ($index - 10) % 11 == 0 ? $extraClass . " RightMarginBig" : $extraClass;
+                $bigChange = 6;
+                $bigName = "BigOne";
+                foreach ($kids as $index => $kid)
+                {
+                    $extraClass = "";
+                    
+                    $extraClass = ($index - 6) % 11 == 0 ? $extraClass . " LeftMarginBig" : $extraClass; 
+                    $extraClass = ($index - 10) % 11 == 0 ? $extraClass . " RightMarginBig" : $extraClass;
 
-        $extraClass = ($index - 3) % 5 == 0 ? $extraClass . " LeftMarginSmall" : $extraClass; 
-        $extraClass = ($index - 4) % 5 == 0 ? $extraClass . " RightMarginSmall" : $extraClass;
+                    $extraClass = ($index - 3) % 5 == 0 ? $extraClass . " LeftMarginSmall" : $extraClass; 
+                    $extraClass = ($index - 4) % 5 == 0 ? $extraClass . " RightMarginSmall" : $extraClass;
 
-       /* $styleLeft = ($index + 5) % 11 == 0 ? " border: 2px solid red;" : ""; 
-        $styleRight = ($index + 1) % 11 == 0 ? " border: 2px solid green;" : ""; */
+                   /* $styleLeft = ($index + 5) % 11 == 0 ? " border: 2px solid red;" : ""; 
+                    $styleRight = ($index + 1) % 11 == 0 ? " border: 2px solid green;" : ""; */
 
-    	$img = $kid['Image'] == "" ? "Kid_Template.png" : $kid['Image'];
-    	?>
-    	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
-            <div class="imageWrapper" style="padding: 10%;">
-                <div class="dropdown" style="border-radius: 50%;">
-                    <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619_2" class="img-fluid" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
-                    <div class="dropdown-content">
-                        <?php echo strtoupper($kid['Name']); ?>
-                        <br>
-                        <?php echo $kid['Age'] . " Jahre" ?>
-                        <br>
-                        <br>
-                        <?php
-                        if (is_int($kid['Class']))
-                        {
-                            echo "besucht die " . $kid['Class'] .". Klasse";
-                        } 
-                        else 
-                        {
-                            echo "besucht die " . $kid['Class'];
-                        }
-                        ?>
-                        <?php if ($kid['Career'] != '') 
-                        {
-                            echo "und möchte gerne " . $kid['Career'] ." werden"; 
-                        }?>                      
-                        <br>
-                    </div>
-                </div>
-            </div>
-    	</div>
-    	<?php
-    }
+                	$img = $kid['Image'] == "" ? "Kid_Template.png" : $kid['Image'];
+                	?>
+                	<div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
+                        <div class="imageWrapper" style="padding: 10%;">
+                            <div class="dropdown" style="border-radius: 50%;">
+                                <img src="./Assets/Kids/Small/<?php echo $img; ?>?date=090619_2" class="img-fluid" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                                <div class="dropdown-content">
+                                    <?php echo strtoupper($kid['Name']); ?>
+                                    <br>
+                                    <?php echo $kid['Age'] . " Jahre" ?>
+                                    <br>
+                                    <br>
+                                    <?php
+                                    if (is_int($kid['Class']))
+                                    {
+                                        echo "besucht die " . $kid['Class'] .". Klasse";
+                                    } 
+                                    else 
+                                    {
+                                        echo "besucht die " . $kid['Class'];
+                                    }
+                                    ?>
+                                    <?php if ($kid['Career'] != '') 
+                                    {
+                                        echo "und möchte gerne " . $kid['Career'] ." werden"; 
+                                    }?>                      
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                	</div>
+                <?php
+                }       
 
-?>
+            ?>
 		</div>
 	</div>
 
-<?php 
-                    /*<?php echo $kid['Class']; ?>
-                        <br>
-                        <?php echo $kid['Subject']; ?>
-                        <br>
-                        <?php echo $kid['Career']; ?>
-                        <br>
-                        <?php
-                            foreach ($kid['Info'] as $infoIndex => $info)
-                            {
-                                echo "* " . $info;
-                                ?> <br> <?php
-                            }
-                        ?>*/ 
+<hr>
+ <div class="col-12" style="padding: 0 0.05vw; text-align: left; font-weight: bold;">
+    Bereits vermittelte Kinder:
+ </div>
 
-?>
+    <div class="container-fluid" style="margin-bottom: 5%;">
+        <div class="row">
+
+            <?php
+                shuffle($kids_mediated);
+
+                $bigChange = 6;
+                $bigName = "BigOne";
+                foreach ($kids_mediated as $index => $kid)
+                {
+                    $extraClass = "";
+                    
+                    $extraClass = ($index - 6) % 11 == 0 ? $extraClass . " LeftMarginBig" : $extraClass; 
+                    $extraClass = ($index - 10) % 11 == 0 ? $extraClass . " RightMarginBig" : $extraClass;
+
+                    $extraClass = ($index - 3) % 5 == 0 ? $extraClass . " LeftMarginSmall" : $extraClass; 
+                    $extraClass = ($index - 4) % 5 == 0 ? $extraClass . " RightMarginSmall" : $extraClass;
+
+                   /* $styleLeft = ($index + 5) % 11 == 0 ? " border: 2px solid red;" : ""; 
+                    $styleRight = ($index + 1) % 11 == 0 ? " border: 2px solid green;" : ""; */
+
+                    $img = $kid['Image'] == "" ? "Kid_Template.png" : $kid['Image'];
+                    ?>
+                    <div class="col-lg-2 col-4 <?php echo $extraClass; ?>" style="padding: 0;">
+                        <div class="imageWrapper" style="padding: 10%;">
+                            <div class="dropdown" style="border-radius: 50%;">
+                                <img src="./Assets/Kids/Small_mediated/<?php echo $img; ?>?date=090619_2" class="img-fluid" style="width: 100%; height: 100%; border-radius: 50%; border: 4px solid #e28824;" >
+                                <div class="dropdown-content">
+                                    <?php echo strtoupper($kid['Name']); ?>
+                                    <br>
+                                    <?php
+                                        if ($kid['Age'] != null) 
+                                        {
+                                            echo $kid['Age'] . " Jahre"; 
+                                        } 
+                                    ?>
+                                    <br>
+                                    <br>
+                                    <?php
+                                    if (is_int($kid['Class']) && $kid['Class'] != null)
+                                    {
+                                        echo "besucht die " . $kid['Class'] .". Klasse";
+                                    } 
+                                    else if ($kid['Class'] != null)
+                                    {
+                                        echo "besucht die " . $kid['Class'];
+                                    }
+                                    ?>
+                                    <?php if ($kid['Career'] != '' && $kid['Career'] != null) 
+                                    {
+                                        echo "und möchte gerne " . $kid['Career'] ." werden"; 
+                                    }?>                      
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php
+                }       
+
+            ?>
+        </div>
+    </div>
