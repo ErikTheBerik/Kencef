@@ -49,6 +49,46 @@ h2 {
     text-transform: uppercase;
 }
 
+button.KencefButton:hover,
+button.KencefSubButton:hover {
+    cursor: pointer;
+}
+
+#SubButtons {
+    background-color: #b8b9b2;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 36%;
+    width: 90%;
+}
+
+#SubButtons:after {
+    content:'';
+    position: relative;
+    top: -100%;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-bottom: solid 10px #b8b9b2;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+
+#SubButtons[cursor_pos='left']:after {
+    left: auto;
+    right: 38%;
+}
+
+#SubButtons[cursor_pos='right']:after {
+    left: auto;
+    right: -38%;
+}
+
 /*#MainButtons {
     width: 100%;
     height: 100%;
@@ -172,34 +212,6 @@ button.Special {
         position: relative;
     }
 
-    .KencefSubButton {
-        color: #f7f8ea;
-        border: 0px;
-        background-color: #6ea097;
-        
-        position: relative;
-
-        border-radius: 80px;
-        letter-spacing: 0.1em;
-
-        font-family: sans-serif;
-        font-weight: 400;
-        text-align: center;
-
-        width: 70%;
-        height: calc(5.8vmin - 0.375vmin);
-        font-size: 2.0vw;
-        margin-top: 2vmin;
-        /*margin-left: 1vmin;*/
-        top: 0;
-
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-
-        text-transform: uppercase;
-    }
-
     #KencefLogo.small {
         max-height: 70%;
         max-width: 85%;
@@ -259,6 +271,12 @@ button.Special {
         overflow-x: hidden;
     }
 
+    .buttonCol {
+        margin-top: 6px;
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
     .KencefButton.small {
         width: 70%;
         height: calc(6.8vmin - 0.375vmin);
@@ -287,10 +305,9 @@ button.Special {
         font-weight: 400;
         text-align: center;
 
-        width: 50%;
+        width: 70%;
         height: calc(5.8vmin - 0.375vmin);
         font-size: 1.5vw;
-        margin-top: 2vmin;
         /*margin-left: 1vmin;*/
         top: 0;
 
@@ -299,6 +316,14 @@ button.Special {
         display:block;
 
         text-transform: uppercase;
+    }
+
+    .ButtonRow .buttonCol .KencefSubButton.left {
+        margin-left: 0;
+    }
+
+    .ButtonRow .buttonCol .KencefSubButton.right {
+        margin-right: 0;
     }
 
     #KencefLogo.small {

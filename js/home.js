@@ -20,17 +20,23 @@ buttonArray['info'] = [];
 buttonArray['info']['mfangano'] = 'Info/mfangano.html';
 buttonArray['info']['team'] = 'Info/team.php';
 buttonArray['info']['schule'] = 'Info/schule.html';
+buttonArray['info']['data'] = [];
+buttonArray['info']['data']['cursor_pos'] = 'left';
 
 buttonArray['spende'] = [];
 buttonArray['spende']['main'] = 'Spende/spende.html';
 buttonArray['spende']['paten'] = 'Spende/paten.php';
 buttonArray['spende']['projekte'] = 'Spende/projekte.html';
 buttonArray['spende']['verein'] = 'Spende/verein.html';
+buttonArray['spende']['data'] = [];
+buttonArray['spende']['data']['cursor_pos'] = 'center';
 
 buttonArray['kontakt'] = [];
 buttonArray['kontakt']['E mail'] = 'Kontakt/email.php';
 buttonArray['kontakt']['social'] = 'Kontakt/social.php';
 buttonArray['kontakt']['impressum'] = 'Kontakt/impressum.html';
+buttonArray['kontakt']['data'] = [];
+buttonArray['kontakt']['data']['cursor_pos'] = 'right';
 
 
 $(".KencefButton").click(function()
@@ -85,13 +91,21 @@ $(".KencefButton").click(function()
                 var index = 0;
                 for (var k in subArray)
                 {
+                    if (k === 'data')
+                    {
+                        var cursor_pos = subArray[k]['cursor_pos'];
+
+                        $('#SubButtons').attr('cursor_pos', cursor_pos);
+                        continue;
+                    }
+
                     if (k === 'main')
                     {
                         $('#bottom_div').load(subArray['main']);
                         continue;
                     }
 
-                    var button = CreateSubButton(k, subArray[k]);
+                    var button = CreateSubButton(k, subArray[k], index);
                     if (index == 0 && subArray['main'] === undefined)
                     {
                         button.click();
@@ -118,7 +132,7 @@ $(".KencefButton").click(function()
     $(this).click();
 })
 
-function CreateSubButton(name, url)
+function CreateSubButton(name, url, index)
 {
     var subButton = $(document.createElement('button'));
     subButton.text(name);
@@ -127,6 +141,16 @@ function CreateSubButton(name, url)
     console.log(subButton.data('url'));
 
     subButton.addClass('KencefSubButton');
+    if (index == 0)
+    {
+        subButton.addClass('left');
+    }
+
+    if (index == 2)
+    {
+        subButton.addClass('right');
+    }
+
     subButton.on('click', function()
     {
         $('.KencefSubButton').each(function()
