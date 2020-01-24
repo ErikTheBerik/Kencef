@@ -80,7 +80,7 @@
  <link rel="stylesheet" href="./Info/css/team.css?date=100619_3">
  <div class="col-12" style="padding: 0 0.05vw; text-align: center;">
  	KENCEF e.V. steht für "Kenyan Rural Needy Child Educational Foundation" <br>
-    (auf Deutsch: Bildungsförderung für hilfsbedürftige Kinder im ländlichen Kenia).)
+    (auf Deutsch: Bildungsförderung für hilfsbedürftige Kinder im ländlichen Kenia)
  </div>
     <div class="container-fluid" style="margin-bottom: 5%;">
         <div class="row">
