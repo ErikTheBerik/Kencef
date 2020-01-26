@@ -5,9 +5,7 @@
 		<p>	Schreib uns gern deine Fragen, Anregungen, Kritik – ganz einfach über das Kontaktformular oder an  
 			<a href="mailto:linda.leibhold@kencef.de?subject=Kencef">linda.leibhold@kencef.de</a> per E-Mail. 
 		</p>
-		<p>Wenn du mehr über den Verein und unsere aktuellen Projekte erfahren wollen, abonniere uns doch auf Facebook oder Instagram: </p>
-
-			
+		<p>Wenn du mehr über den Verein und unsere aktuellen Projekte erfahren wollen, abonniere uns doch auf Facebook oder Instagram: </p>		
 		</p>
 	</div>
 

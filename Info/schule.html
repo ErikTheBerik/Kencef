@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="./Info/css/schule.css">
+<link rel="stylesheet" href="./css/imageslider.css">
+<script src="./js/imageslider.js"></script>
 <body>
 
 <div class="row TextDiv">
@@ -39,20 +41,19 @@
   <div class="col-12">
         <!-- Slideshow container -->
     <div class="slideshow-container">
-
       <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
+      <div class="slide1 fade">
         <img src="./Assets/Mfangano/Mfangano_fishing.jpg" style="width:100%">
       </div>
-
-      <div class="mySlides fade">
+      <div class="slide1 fade">
         <img src="./Assets/Mfangano/Mfangano_lakeview.jpg" style="width:100%">
       </div>
-
-      <div class="mySlides fade">
+      <div class="slide1 fade">
         <img src="./Assets/Mfangano/Mfangano_sunset.jpg" style="width:100%">
       </div>
-
+      <div class="slide1 fade">
+        <img src="./Assets/Mfangano/Mfangano_road.jpg" style="width:100%">
+      </div>
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
       <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
@@ -78,10 +79,10 @@
       </p>
 
     <div class="slideshow-container">
-      <div class="leftslide fade">
+      <div class="slide2 fade">
         <img src="./Assets/Mfangano/Mfangano_classroom.jpg" style="width:100%">
       </div>
-      <div class="leftslide fade">
+      <div class="slide2 fade">
         <img src="./Assets/Mfangano/Mfangano_highfive.jpg" style="width:100%">
       </div>
       <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
@@ -94,18 +95,16 @@
     <div class="HalfDiv">
       <p>
         Auf Mfangano hat sich bezüglich des Bildungssektors in den vergangenen Jahren viel getan. Es wurden immer neue Grundschulen errichtet, um den hohen Schülerzahlen gerecht zu werden. Trotz vieler Fortschritte sind die meisten Schulen auch heute noch sehr schlecht ausgerüstet und es mangelt an Fördergeldern.
-      </p>
-      <p>
+        <br>
         Wenn die Kinder die achte Klasse absolviert haben, erhalten sie eine Zugangsberechtigung für die Oberschule oder haben die Möglichkeit, eine Berufsausbildung zu beginnen. Leider ist jede weiterführende Ausbildung über die Grundschule hinaus mit hohen Kosten verbunden und entsprechend für viele Jugendliche auf der Insel unzugänglich.
-      </p>
-      <p>
+        <br>
         Es werden folgende Fächer unterrichtet: Mathematik, Naturwissenschaft, Kiswahili, Sozialwissenschaft und Religion. Die Unterrichtssprache ist Englisch und die Schüler sind sieben Tage pro Woche in der Schule.
       </p>
       <div class="slideshow-container">
-        <div class="rightslide fade">
+        <div class="slide3 fade">
           <img src="./Assets/Mfangano/Mfangano_beauty.jpg" style="width:100%">
         </div>
-        <div class="rightslide fade">
+        <div class="slide3 fade">
           <img src="./Assets/Mfangano/Mfangano_whitesaviour.jpg" style="width:100%">
         </div>
         <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
@@ -116,37 +115,6 @@
   <!-- add more space at the end -->
     <div class="col-12" style="padding: 2vw"></div>
 </div>
-
-<script>
-  var slideIndex = [1,1,1];
-  var slideId = ["mySlides", "leftslide", "rightslide"]
-  showSlides(1, 0);
-  showSlides(1, 1);
-  showSlides(1, 2);
-
-
-  function plusSlides(n, no) {
-    showSlides(slideIndex[no] += n, no);
-  }
-
-  // Thumbnail image controls
-  function currentSlide(n) {
-    showSlides(slideIndex[0] = n, 0);
-  }
-
-
-  function showSlides(n, no) {
-    var i;
-    var x = document.getElementsByClassName(slideId[no]);
-    if (n > x.length) {slideIndex[no] = 1}
-    if (n < 1) {slideIndex[no] = x.length}
-    for (i = 0; i < x.length; i++) 
-    {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex[no]-1].style.display = "block";  
-  }
-</script>
 
 </body>
 </html>

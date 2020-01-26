@@ -976,7 +976,7 @@ Schuljahr finanziert werden.
 	</div>
 
 <hr>
- <div class="col-12" style="padding: 0 0.05vw; text-align: left; font-weight: bold;">
+ <div class="col-12" style="color: #494949; padding: 0 0.05vw; text-align: left; font-weight: bold;">
     Bereits vermittelte Kinder:
  </div>
 

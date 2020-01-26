@@ -8,11 +8,12 @@
 
 #project_title > h5 {
 	text-align: center;
-	color: black;
+	color: #494949;
 	padding-top: 5%;
 }
 
 #project_description > p {
 	text-align: justify;
 	padding: 2% 2% 0 2%;
+	font-size: 16px;
 }
