@@ -17,9 +17,9 @@
 var buttonArray = [];
 
 buttonArray['info'] = [];
+buttonArray['info']['news'] = 'Info/news.html';
 buttonArray['info']['mfangano'] = 'Info/mfangano.html';
 buttonArray['info']['team'] = 'Info/team.php';
-buttonArray['info']['schule'] = 'Info/schule.html';
 buttonArray['info']['data'] = [];
 buttonArray['info']['data']['cursor_pos'] = 'left';
 
@@ -27,12 +27,12 @@ buttonArray['spende'] = [];
 buttonArray['spende']['main'] = 'Spende/spende.html';
 buttonArray['spende']['paten'] = 'Spende/paten.php';
 buttonArray['spende']['projekte'] = 'Spende/projekte.html';
-buttonArray['spende']['verein'] = 'Spende/verein.html';
+buttonArray['spende']['vision'] = 'Spende/vision.html';
 buttonArray['spende']['data'] = [];
 buttonArray['spende']['data']['cursor_pos'] = 'center';
 
 buttonArray['kontakt'] = [];
-buttonArray['kontakt']['E mail'] = 'Kontakt/email.php';
+buttonArray['kontakt']['E-mail'] = 'Kontakt/email.php';
 buttonArray['kontakt']['social'] = 'Kontakt/social.php';
 buttonArray['kontakt']['impressum'] = 'Kontakt/impressum.html';
 buttonArray['kontakt']['data'] = [];
