@@ -1,10 +1,13 @@
 <link rel="stylesheet" href="./Kontakt/css/social.css">
 <div class="row TextDiv">
 	<div class="col-12">
-		<p style="text-align: justify;">
-			Wir freuen uns über Ihr Interesse an der Arbeit von KENCEF e.V.! 
-			Schreiben Sie uns gern Ihre Fragen, Anregungen, Kritik – ganz einfach über das Kontaktformular.
-			Wenn Sie mehr über den Verein und unsere aktuellen Projekte erfahren wollen, abonnieren Sie uns doch auf Facebook oder Instagram:
+		<p>Wir freuen uns über dein Interesse an der Arbeit von KENCEF e.V.!</p>
+		<p>	Schreib uns gern deine Fragen, Anregungen, Kritik – ganz einfach über das Kontaktformular oder an  
+			<a href="mailto:linda.leibhold@kencef.de?subject=Kencef">linda.leibhold@kencef.de</a> per E-Mail. 
+		</p>
+		<p>Wenn du mehr über den Verein und unsere aktuellen Projekte erfahren wollen, abonniere uns doch auf Facebook oder Instagram: </p>
+
+			
 		</p>
 	</div>
 

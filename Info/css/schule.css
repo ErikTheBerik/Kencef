@@ -8,6 +8,10 @@ Color Code:
     Light-Gray: #cacaca;
 */
 
+p {
+	font-size: 16px;
+}
+
 #SpanSection {
 	height: 50%;
 	width: 100%;
