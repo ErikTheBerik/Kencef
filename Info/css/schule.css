@@ -71,9 +71,9 @@ Color Code:
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides, .leftslide, .rightslide{
   display: none;
-}
+} 
 
 
 /* Next & previous buttons */
