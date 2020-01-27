@@ -44,6 +44,8 @@ $(".KencefButton").click(function()
     $('#MainWindow').append('<div id="bottom_div"></div>');
     $("#KencefLogo").addClass('small');
 
+    $('#kencef_video').hide();
+
     $("#KencefLogo").on('click', function(e)
     {
         e.preventDefault();

@@ -11,7 +11,8 @@ Color Code:
 body {
     background-color: #f7f8ea;
     border: 3vmin solid #6ea097;
-    height: 100vh;
+    /*height: 100vh; */ /* Add this again later! Keep body height to screen height */
+    height: 100%;
     padding: 0;
 }
 
@@ -28,8 +29,11 @@ h2 {
     padding: 0;
     color: black;
     width: calc(100vw - 6vmin);
-    height: calc(100vh - 6vmin);
-    overflow: hidden;
+    /*height: calc(100vh - 6vmin);*/ /* Add this again later! Keep body height to screen height */
+    height: 100%;
+    padding-right: 3vmin;
+    padding-left: 3vmin;
+    /*overflow: hidden; */ /* Add this again later! Unscrollable homepage */
 }
 
 .KencefButton {

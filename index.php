@@ -24,18 +24,7 @@
         <div class="col-12" id="LogoContainer">
           <img src="Assets/Kencef_Logo.png" alt="Kencef Logo" id="KencefLogo">
         </div>
-        <!--
-          <div class="col-12" style="position: relative; margin: 10px 20px 10px 20px">
-            <iframe 
-              class="video" width="100%" height="380" src="https://www.youtube.com/embed/yNkqM2h3df4"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>            
-            </iframe>
-            <p style="font-size: 16px; text-align: justify; padding-top: 0.8vw" >
-              KENCEF e.V. ist ein gemeinnütziger Verein, welcher sich der Bildungsarbeit auf Mfangano Island in Kenia verschrieben hat. Unterstützt werden Kinder im Alter von drei bis sechzehn Jahren, welche aufgrund ihres sozialen/ökonomischen Hintergrunds einen erschwerten Zugang zu Bildung haben. An jene Schützlinge vermitteln wir Spendenpatenschaften, damit die Kinder die Grundschule besuchen können.<br>
-              Wir freuen uns, dass Sie Interesse an unserer Tätigkeit haben und laden Sie herzlich ein, sich über unsere Arbeit und Möglichkeiten zur Mithilfe zu informieren!
-            </p>
-        </div>
-      -->
+
         <div class="col-sm-4 col-12 BottomZone">
           <button class="KencefButton Intro" name="info">INFO</button>
         </div>
@@ -45,6 +34,17 @@
         </div>
         <div class="col-sm-4 col-12 BottomZone">
           <button class="KencefButton Intro" name="kontakt">KONTAKT</button>
+        </div>
+        
+          <div id="kencef_video" class="col-12" style="padding-right: 3vmin; margin-top: -10vh;">
+            <iframe 
+              class="video" width="100%" height="380" src="https://www.youtube.com/embed/yNkqM2h3df4"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>            
+            </iframe>
+            <p style="font-size: 16px; text-align: justify; padding-top: 0.8vw" >
+              KENCEF e.V. ist ein gemeinnütziger Verein, welcher sich der Bildungsarbeit auf Mfangano Island in Kenia verschrieben hat. Unterstützt werden Kinder im Alter von drei bis sechzehn Jahren, welche aufgrund ihres sozialen/ökonomischen Hintergrunds einen erschwerten Zugang zu Bildung haben. An jene Schützlinge vermitteln wir Spendenpatenschaften, damit die Kinder die Grundschule besuchen können.<br>
+              Wir freuen uns, dass Sie Interesse an unserer Tätigkeit haben und laden Sie herzlich ein, sich über unsere Arbeit und Möglichkeiten zur Mithilfe zu informieren!
+            </p>
         </div>
       </div>
     </div>
