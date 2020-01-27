@@ -216,6 +216,33 @@ button.Special {
         position: relative;
     }
 
+    .KencefSubButton {
+        color: #f7f8ea;
+        border: 0px;
+        background-color: #6ea097;
+        
+        position: relative;
+
+        border-radius: 80px;
+        letter-spacing: 0.1em;
+
+        font-family: sans-serif;
+        font-weight: 400;
+        text-align: center;
+
+        width: 70%;
+        height: calc(5.8vmin - 0.375vmin);
+        font-size: 1.5vw;
+        /*margin-left: 1vmin;*/
+        top: 0;
+
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+
+        text-transform: uppercase;
+    }
+
     #KencefLogo.small {
         max-height: 70%;
         max-width: 85%;
