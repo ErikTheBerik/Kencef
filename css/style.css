@@ -123,7 +123,7 @@ button.Special {
 }
 
 .TextDiv {
-    font-size: calc(8px + 0.5vmax);
+    font-size: calc(12px + 0.5vmax);
     text-align: justify;
 }
 
