@@ -82,8 +82,8 @@
 	width: 90%;
 }
 
+/*
 #Spendenkonto {
-	background-color: #e28824;
     height: 45%;
     width: 30%;
     text-align: center;
@@ -93,4 +93,19 @@
     font-weight: bold;
     padding-top: 8px;
     font-size: 125%;
+}
+*/
+
+
+#Spendenkonto {
+    border: 3px solid #e28824;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 35% 0 35%;
+}
+
+@media only screen and (max-width: 700px) {
+ #Spendenkonto {
+    margin: 0 20% 0 20%;
+  }
 }
